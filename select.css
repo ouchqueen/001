@@ -1,0 +1,15 @@
+
+.ant-checkbox-group {
+    display: flex;
+    flex-direction: column;
+}
+.ant-checkbox-group-item {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.ant-checkbox-group-item:last-child {
+    margin-right: 8px;
+}
+.ant-checkbox-group-item > span:last-child {
+    width: 50%;
+}
