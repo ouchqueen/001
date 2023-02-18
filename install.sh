@@ -97,7 +97,7 @@ echo "Internal ip = ${IP4}. Exteranl sub for ip6 = ${IP6}"
 #read COUNT
 
 FIRST_PORT=10000
-COUNT = 250
+COUNT=250
 LAST_PORT=$(($FIRST_PORT + $COUNT))
 
 gen_data >$WORKDIR/data.txt
